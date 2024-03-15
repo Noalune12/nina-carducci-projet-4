@@ -108,6 +108,9 @@ body {
 .nav-pills .nav-link {
 	color: #000
 }
+.nav-link:hover {
+	cursor: pointer;
+}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -125,6 +128,9 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+}
+.gallery-item:hover {
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
